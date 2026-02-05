@@ -302,19 +302,6 @@ body {
     border-color: var(--color-accent);
 }
 
-.passion-number {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 50px;
-    height: 50px;
-    background: var(--gradient-accent);
-    color: white;
-    border-radius: 50%;
-    font-weight: 700;
-    font-size: 1.5rem;
-    margin-bottom: var(--spacing-md);
-    }
 .passion-icon {
         font-size: 2.5rem;
         text-align: center;
@@ -404,38 +391,6 @@ body {
 .motivation-response.active { opacity: 1; }
 
 /* ===== SECTION CONTACT ===== */
-.contact {
-    padding: var(--spacing-2xl) 0;
-    background: rgba(15, 23, 42, 0.5);
-}
-
-.contact-wrapper {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: var(--spacing-2xl);
-}
-
-.contact-info h3 {
-    font-size: 1.5rem;
-    margin-bottom: var(--spacing-md);
-    color: #f1f5f9;
-}
-
-.contact-info > p {
-    color: #cbd5e1;
-    margin-bottom: var(--spacing-lg);
-}
-
-
-
-
-.contact-form {
-    display: flex;
-    flex-direction: column;
-    gap: var(--spacing-md);
-}
-
-
 
 .btn {
     padding: var(--spacing-md) var(--spacing-lg);
