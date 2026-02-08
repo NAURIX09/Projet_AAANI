@@ -1,5 +1,5 @@
 ﻿/* =====================================================
-   PORTFOLIO PERSONNEL - INTERACTIVITÉ JAVASCRIPT
+   PRESENTATION PERSONNELLE - INTERACTIVITÉ JAVASCRIPT
    ===================================================== */
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -45,7 +45,7 @@ function initMotivationButtons() {
     });
 }
 
-const form = document.querySelector(".contact-form");
+const form = document.querySelector(".mes-form");
 const message = document.querySelector(".message-text");
 
 let visible = false;
