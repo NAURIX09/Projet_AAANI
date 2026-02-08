@@ -1,5 +1,5 @@
 ﻿/* =============================================
-   PORTFOLIO PERSONNEL - FEUILLE DE STYLES CSS
+   PRESENTATION PERSONNELLE - FEUILLE DE STYLES CSS
    ============================================= */
 
 /* ===== VARIABLES CSS - Couleurs et dimensions ===== */
@@ -390,7 +390,7 @@ body {
 
 .motivation-response.active { opacity: 1; }
 
-/* ===== SECTION CONTACT ===== */
+/* ===== SECTION MESSAGE ===== */
 
 .btn {
     padding: var(--spacing-md) var(--spacing-lg);
@@ -417,8 +417,21 @@ body {
     text-align: center;
     min-height: 20px;
     font-weight: 500;
+     margin-top: 25px;
 }
 
+
+.message-text {
+    font-family: inherit; /* même police que le site */
+    font-size: 1.1rem;    /* même taille */
+    color: white;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.message-text.show {
+    opacity: 1;
+}
 
 
 /* ===== FOOTER ===== */
@@ -482,20 +495,3 @@ body {
     .passion-details { justify-content: center; }
 }
  
-.form-message {
-    margin-top: 25px;
-    min-height: 32px; /* espace réservé en permanence */
-    text-align: center;
-}
-
-.message-text {
-    font-family: inherit; /* même police que le site */
-    font-size: 1.1rem;    /* même taille */
-    color: white;
-    opacity: 0;
-    transition: opacity 0.4s ease;
-}
-
-.message-text.show {
-    opacity: 1;
-}
