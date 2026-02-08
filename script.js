@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initMotivationButtons();
     initContactForm();
     initScrollAnimations();
-    console.log('✅ Portfolio chargé avec succès !');
+    console.log('✅ PRESENTATION chargé avec succès !');
 });
 
 /* ===== GESTION DES BOUTONS DE MOTIVATION ===== */
